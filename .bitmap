@@ -26,7 +26,7 @@
     "ui/button": {
         "name": "ui/button",
         "scope": "automations.design",
-        "version": "0.0.7",
+        "version": "c2f7b3e45b5a5f67719c25188f6072e33e8a8f29",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/button"
     },
@@ -51,5 +51,12 @@
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/input"
     },
-    "$schema-version": "17.0.0"
+    "$schema-version": "17.0.0",
+    "_bit_lane": {
+        "id": {
+            "name": "update-button-tests",
+            "scope": "automations.design"
+        },
+        "exported": true
+    }
 }
