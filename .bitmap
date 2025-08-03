@@ -9,47 +9,99 @@
  */
 
 {
+    "envs/automations-env": {
+        "name": "envs/automations-env",
+        "scope": "automations.design",
+        "version": "dc4485e441601443cfc05b1447f872a14e2df239",
+        "mainFile": "index.ts",
+        "rootDir": "bit-components/design/envs/automations-env",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
     "patterns/form": {
         "name": "patterns/form",
         "scope": "automations.design",
         "version": "0.0.12",
         "mainFile": "index.ts",
-        "rootDir": "bit-components/design/patterns/form"
+        "rootDir": "bit-components/design/patterns/form",
+        "config": {
+            "automations.design/envs/automations-env": {},
+            "teambit.envs/envs": {
+                "env": "automations.design/envs/automations-env"
+            }
+        }
     },
     "patterns/header": {
         "name": "patterns/header",
         "scope": "automations.design",
         "version": "0.0.3",
         "mainFile": "index.ts",
-        "rootDir": "bit-components/design/patterns/header"
+        "rootDir": "bit-components/design/patterns/header",
+        "config": {
+            "automations.design/envs/automations-env": {},
+            "teambit.envs/envs": {
+                "env": "automations.design/envs/automations-env"
+            }
+        }
     },
     "ui/button": {
         "name": "ui/button",
         "scope": "automations.design",
         "version": "0.0.8",
         "mainFile": "index.ts",
-        "rootDir": "bit-components/design/ui/button"
+        "rootDir": "bit-components/design/ui/button",
+        "config": {
+            "automations.design/envs/automations-env": {},
+            "teambit.envs/envs": {
+                "env": "automations.design/envs/automations-env"
+            }
+        }
     },
     "ui/card": {
         "name": "ui/card",
         "scope": "automations.design",
         "version": "0.0.4",
         "mainFile": "index.ts",
-        "rootDir": "bit-components/design/ui/card"
+        "rootDir": "bit-components/design/ui/card",
+        "config": {
+            "automations.design/envs/automations-env": {},
+            "teambit.envs/envs": {
+                "env": "automations.design/envs/automations-env"
+            }
+        }
     },
     "ui/dropdown": {
         "name": "ui/dropdown",
         "scope": "automations.design",
         "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "bit-components/design/ui/dropdown"
+        "rootDir": "bit-components/design/ui/dropdown",
+        "config": {
+            "automations.design/envs/automations-env": {},
+            "teambit.envs/envs": {
+                "env": "automations.design/envs/automations-env"
+            }
+        }
     },
     "ui/input": {
         "name": "ui/input",
         "scope": "automations.design",
         "version": "0.0.3",
         "mainFile": "index.ts",
-        "rootDir": "bit-components/design/ui/input"
+        "rootDir": "bit-components/design/ui/input",
+        "config": {
+            "automations.design/envs/automations-env": {},
+            "teambit.envs/envs": {
+                "env": "automations.design/envs/automations-env"
+            }
+        }
     },
-    "$schema-version": "17.0.0"
+    "$schema-version": "17.0.0",
+    "_bit_lane": {
+        "id": {
+            "name": "react-env",
+            "scope": "automations.design"
+        },
+        "exported": true
+    }
 }
