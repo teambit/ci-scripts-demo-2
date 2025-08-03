@@ -12,7 +12,7 @@
     "patterns/form": {
         "name": "patterns/form",
         "scope": "automations.design",
-        "version": "0.0.11",
+        "version": "2c64d81f2c0e5a9a0a1e2e7ca698b7965295620b",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/patterns/form"
     },
@@ -26,7 +26,7 @@
     "ui/button": {
         "name": "ui/button",
         "scope": "automations.design",
-        "version": "c2f7b3e45b5a5f67719c25188f6072e33e8a8f29",
+        "version": "82f527944f193c46d1055d0eca7f47d9c77a264b",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/button"
     },

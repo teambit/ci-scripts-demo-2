@@ -59,5 +59,8 @@
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true,
     "useDefaultDirectory": true
+  },
+  "teambit.harmony/bit": {
+    "engine": "1.12.38"
   }
 }
