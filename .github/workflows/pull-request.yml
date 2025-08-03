@@ -1,0 +1,30 @@
+name: Bit PR Check
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      BIT_CONFIG_ACCESS_TOKEN: ${{ secrets.BIT_ACCESS_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Initialize Bit
+        uses: bit-tasks/init@v3
+        with:
+            ws-dir: '.'
+            
+      - name: Bit Pull Request
+        uses: bit-tasks/pull-request@main
+        with:
+          version-labels: true
+          version-labels-color-major: "f0a09f"
+          version-labels-color-minor: "f0e8bd"
+          version-labels-color-patch: "c2e0c6"
+          clear-labels: true

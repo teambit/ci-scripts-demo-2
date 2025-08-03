@@ -1,0 +1,68 @@
+---
+description: A flexible form component that uses our UI components for consistent styling and behavior.
+labels: ['react', 'form', 'pattern', 'test']
+---
+
+import { BasicForm, FormWithSelect, FormWithInitialValues } from './form.composition';
+
+# Form
+
+A flexible form component that combines our UI components (Input, Dropdown, Button) to create consistent and accessible forms.
+
+## Features
+
+- Support for text, email, password, and select inputs
+- Form validation
+- Error messages
+- Required field indicators
+- Initial values support
+- Customizable submit button text
+- Responsive design
+- Accessible form controls
+
+## Usage
+
+```tsx
+import { Form } from '@your-scope/patterns/form';
+
+const fields = [
+  {
+    name: 'name',
+    label: 'Name',
+    type: 'text',
+    placeholder: 'Enter your name',
+    required: true,
+  },
+  {
+    name: 'email',
+    label: 'Email',
+    type: 'email',
+    placeholder: 'Enter your email',
+    required: true,
+  },
+];
+
+function MyComponent() {
+  return (
+    <Form
+      fields={fields}
+      onSubmit={(values) => console.log(values)}
+      submitText="Submit"
+    />
+  );
+}
+```
+
+## Examples
+
+### Basic Form
+
+<BasicForm />
+
+### Form with Select Field
+
+<FormWithSelect />
+
+### Form with Initial Values
+
+<FormWithInitialValues />

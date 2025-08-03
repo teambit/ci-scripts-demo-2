@@ -1,0 +1,67 @@
+---
+description: A customizable dropdown component with keyboard navigation and accessibility support.
+labels: ['react', 'ui', 'dropdown', 'select']
+---
+
+import { BasicDropdown, DisabledDropdown, WithCustomTrigger } from './dropdown.composition';
+
+# Dropdown
+
+A flexible dropdown component that supports custom triggers, keyboard navigation, and accessibility features.
+
+## Features
+
+- Customizable trigger element
+- Keyboard navigation support (Enter, Space, Escape, Arrow keys)
+- Click outside to close
+- Disabled state support
+- Accessible (ARIA attributes)
+- Customizable styling with Tailwind CSS
+
+## Usage
+
+```tsx
+import { Dropdown } from '@your-scope/ui/dropdown';
+
+const options = [
+  { label: 'Option 1', value: '1' },
+  { label: 'Option 2', value: '2' },
+  { label: 'Option 3', value: '3' },
+];
+
+function MyComponent() {
+  return (
+    <Dropdown
+      options={options}
+      value="1"
+      onChange={(value) => console.log('Selected:', value)}
+      placeholder="Select an option"
+    />
+  );
+}
+```
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| options | DropdownOption[] | required | Array of options to display |
+| value | string | undefined | Currently selected value |
+| onChange | (value: string) => void | undefined | Callback when an option is selected |
+| placeholder | string | 'Select an option' | Placeholder text when no option is selected |
+| disabled | boolean | false | Whether the dropdown is disabled |
+| trigger | ReactNode | undefined | Custom trigger element |
+
+## Examples
+
+### Basic Usage
+
+<BasicDropdown />
+
+### Disabled State
+
+<DisabledDropdown />
+
+### Custom Trigger
+
+<WithCustomTrigger />

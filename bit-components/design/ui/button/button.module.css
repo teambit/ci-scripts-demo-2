@@ -1,0 +1,109 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Variants */
+.primary {
+    background-color: #0070f3;
+    color: white;
+}
+
+.primary:hover:not(:disabled) {
+    background-color: #0051b3;
+}
+
+.secondary {
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+
+.secondary:hover:not(:disabled) {
+    background-color: #e5e7eb;
+}
+
+.outline {
+    background-color: transparent;
+    border: 1px solid #0070f3;
+    color: #0070f3;
+}
+
+.outline:hover:not(:disabled) {
+    background-color: #f0f7ff;
+}
+
+.danger {
+    background-color: #dc2626;
+    color: white;
+}
+
+.danger:hover:not(:disabled) {
+    background-color: #b91c1c;
+}
+
+/* Sizes */
+.small {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.medium {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.large {
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+/* Loading state */
+.loading {
+    cursor: wait;
+}
+
+.loading .content {
+    visibility: hidden;
+}
+
+.spinner {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Icon styles */
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon svg {
+    width: 16px;
+    height: 16px;
+}

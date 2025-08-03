@@ -1,0 +1,39 @@
+---
+description: A responsive header component with navigation and user menu
+labels: ['react', 'header', 'navigation', 'ui']
+---
+
+import { Header } from './header.js';
+import { BasicHeader } from './header.composition.js';
+
+# Header Component
+
+A flexible and responsive header component that includes a logo area, navigation menu, and user menu.
+
+## Usage
+
+```jsx
+import { Header } from '@your-scope/design.patterns.header';
+
+const navItems = [
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
+  { label: 'Services', href: '/services' },
+];
+
+const userMenuItems = [
+  { label: 'Profile', onClick: () => console.log('Profile clicked') },
+  { label: 'Settings', onClick: () => console.log('Settings clicked') },
+];
+
+<Header
+  logo={<YourLogo />}
+  navItems={navItems}
+  userMenuItems={userMenuItems}
+  fixed={true}
+/>
+```
+
+## Example
+
+<BasicHeader />
