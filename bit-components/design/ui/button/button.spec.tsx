@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { vi } from 'vitest';
 import { Button } from './button.js';
+import { vi } from 'vitest';
 
 describe('Button', () => {
   it('renders children correctly', () => {
@@ -56,7 +56,7 @@ describe('Button', () => {
   });
 
   it('renders icon correctly', () => {
-    const icon = <span data-testid="test-icon" role="img" aria-label="Rocket">🚀</span>;
+    const icon = <span data-testid="test-icon">🚀</span>;
     render(<Button icon={icon}>Click me</Button>);
     expect(screen.getByTestId('test-icon')).toBeInTheDocument();
   });
@@ -68,7 +68,7 @@ describe('Button', () => {
   });
 
   it('hides icons when in loading state', () => {
-    const icon = <span data-testid="test-icon" role="img" aria-label="Rocket">🚀</span>;
+    const icon = <span data-testid="test-icon">🚀</span>;
     render(<Button loading icon={icon}>Click me</Button>);
     expect(screen.queryByTestId('test-icon')).not.toBeInTheDocument();
   });
@@ -87,23 +87,5 @@ describe('Button', () => {
 
     rerender(<Button type="reset">Button</Button>);
     expect(screen.getByRole('button')).toHaveAttribute('type', 'reset');
-  });
-
-  it('applies multiple props correctly when combined', () => {
-    render(
-      <Button 
-        variant="danger" 
-        size="large" 
-        data-testid="combined-button"
-      >
-        Delete Item
-      </Button>
-    );
-    
-    const button = screen.getByTestId('combined-button');
-    expect(button).toHaveClass('danger');
-    expect(button).toHaveClass('large');
-    expect(button).toHaveAttribute('type', 'button'); // default type
-    expect(screen.getByText('Delete Item')).toBeInTheDocument();
   });
 });

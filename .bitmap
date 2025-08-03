@@ -12,7 +12,7 @@
     "patterns/form": {
         "name": "patterns/form",
         "scope": "automations.design",
-        "version": "2c64d81f2c0e5a9a0a1e2e7ca698b7965295620b",
+        "version": "02856a708c23d92a84f9c5a82e82f0a61c931211",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/patterns/form"
     },
@@ -26,7 +26,7 @@
     "ui/button": {
         "name": "ui/button",
         "scope": "automations.design",
-        "version": "82f527944f193c46d1055d0eca7f47d9c77a264b",
+        "version": "5dc717b3cafca203402c9ca98dd140b615c7dd8b",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/button"
     },
@@ -54,7 +54,7 @@
     "$schema-version": "17.0.0",
     "_bit_lane": {
         "id": {
-            "name": "update-button-tests",
+            "name": "update-button-docs",
             "scope": "automations.design"
         },
         "exported": true
