@@ -21,7 +21,7 @@ jobs:
             ws-dir: '.'
             
       - name: Bit Pull Request
-        uses: bit-tasks/pull-request@main
+        uses: bit-tasks/pull-request@v3
         with:
           build: true
           version-labels: true

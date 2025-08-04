@@ -1,0 +1,79 @@
+---
+description: A theme for the Automations organization, providing tokens, fonts, and styling for components.
+labels: ['theme', 'design tokens', 'theming', 'automations']
+---
+
+The `AutomationsTheme` component provides a consistent look and feel across your application by applying design tokens for typography, colors, spacing, and sizes. It supports both light and dark modes.
+
+## Get Started
+
+To use the `AutomationsTheme` in your project:
+
+```bash
+bit install @your-org/automations-theme
+```
+or
+```bash
+npm install @your-org/automations-theme
+```
+Wrap your application with the `AutomationsTheme` component:
+```tsx
+function App() {
+  return (
+    <AutomationsTheme>
+      <YourAppContent />
+    </AutomationsTheme>
+  );
+}
+```
+## Usage Examples
+### Basic Usage
+Apply the `AutomationsTheme` to wrap your application and provide a consistent theme.
+```tsx
+function AppContent() {
+  return (
+    <div>
+      <h1>Welcome to Automations App</h1>
+      <p>This is a themed paragraph.</p>
+    </div>
+  );
+}
+export const BasicUsage = () => (
+  <AutomationsTheme>
+    <AppContent />
+  </AutomationsTheme>
+);
+```
+### Dark Mode
+Use the `initialTheme` prop to set the theme to dark mode by default.
+```tsx
+function AppContent() {
+  return (
+    <div>
+      <h1>Welcome to Automations App</h1>
+      <p>This is a themed paragraph in dark mode.</p>
+    </div>
+  );
+}
+export const DarkModeExample = () => (
+  <AutomationsTheme initialTheme="dark">
+    <AppContent />
+  </AutomationsTheme>
+);
+```
+### Custom Class Name
+Add a `className` prop to customize the theme's appearance, and/or override certain styles.
+```tsx
+function AppContent() {
+  return (
+    <div>
+      <h1>Welcome to Automations App</h1>
+      <p>This is a themed paragraph with custom styles.</p>
+    </div>
+  );
+}
+export const CustomClassName = () => (
+  <AutomationsTheme className="my-custom-theme">
+    <AppContent />
+  </AutomationsTheme>
+);
