@@ -12557,8 +12557,8 @@ snapshots:
     dependencies:
       '@babel/core': 7.26.9
       '@babel/plugin-transform-react-constant-elements': 7.27.1(@babel/core@7.26.9)
-      '@babel/preset-env': 7.22.15(@babel/core@7.26.9)
-      '@babel/preset-react': 7.22.15(@babel/core@7.26.9)
+      '@babel/preset-env': 7.28.0(@babel/core@7.26.9)
+      '@babel/preset-react': 7.27.1(@babel/core@7.26.9)
       '@babel/preset-typescript': 7.27.1(@babel/core@7.26.9)
       '@svgr/core': 8.1.0(typescript@5.5.3)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.7.2))
@@ -12571,8 +12571,8 @@ snapshots:
     dependencies:
       '@babel/core': 7.26.9
       '@babel/plugin-transform-react-constant-elements': 7.27.1(@babel/core@7.26.9)
-      '@babel/preset-env': 7.22.15(@babel/core@7.26.9)
-      '@babel/preset-react': 7.22.15(@babel/core@7.26.9)
+      '@babel/preset-env': 7.28.0(@babel/core@7.26.9)
+      '@babel/preset-react': 7.27.1(@babel/core@7.26.9)
       '@babel/preset-typescript': 7.27.1(@babel/core@7.26.9)
       '@svgr/core': 8.1.0(typescript@5.5.3)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.7.2))
@@ -12585,8 +12585,8 @@ snapshots:
     dependencies:
       '@babel/core': 7.26.9
       '@babel/plugin-transform-react-constant-elements': 7.27.1(@babel/core@7.26.9)
-      '@babel/preset-env': 7.22.15(@babel/core@7.26.9)
-      '@babel/preset-react': 7.22.15(@babel/core@7.26.9)
+      '@babel/preset-env': 7.28.0(@babel/core@7.26.9)
+      '@babel/preset-react': 7.27.1(@babel/core@7.26.9)
       '@babel/preset-typescript': 7.27.1(@babel/core@7.26.9)
       '@svgr/core': 8.1.0(typescript@5.9.2)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.7.2))
@@ -18221,7 +18221,7 @@ snapshots:
     dependencies:
       cipher-base: 1.0.6
       inherits: 2.0.4
-      ripemd160: 2.0.1
+      ripemd160: 2.0.2
       sha.js: 2.4.12
 
   create-hash@1.2.0:
@@ -18310,12 +18310,12 @@ snapshots:
 
   css-loader@6.7.2(webpack@5.101.0):
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.19)
-      postcss: 8.4.19
-      postcss-modules-extract-imports: 3.1.0(postcss@8.4.19)
-      postcss-modules-local-by-default: 4.2.0(postcss@8.4.19)
-      postcss-modules-scope: 3.2.1(postcss@8.4.19)
-      postcss-modules-values: 4.0.0(postcss@8.4.19)
+      icss-utils: 5.1.0(postcss@8.5.6)
+      postcss: 8.5.6
+      postcss-modules-extract-imports: 3.1.0(postcss@8.5.6)
+      postcss-modules-local-by-default: 4.2.0(postcss@8.5.6)
+      postcss-modules-scope: 3.2.1(postcss@8.5.6)
+      postcss-modules-values: 4.0.0(postcss@8.5.6)
       postcss-value-parser: 4.2.0
       semver: 7.7.2
       webpack: 5.101.0(esbuild@0.14.29)
@@ -20180,10 +20180,6 @@ snapshots:
     dependencies:
       safer-buffer: 2.1.2
 
-  icss-utils@5.1.0(postcss@8.4.19):
-    dependencies:
-      postcss: 8.4.19
-
   icss-utils@5.1.0(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
@@ -21826,20 +21822,9 @@ snapshots:
       postcss: 8.5.6
       postcss-selector-parser: 6.1.2
 
-  postcss-modules-extract-imports@3.1.0(postcss@8.4.19):
-    dependencies:
-      postcss: 8.4.19
-
   postcss-modules-extract-imports@3.1.0(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
-
-  postcss-modules-local-by-default@4.2.0(postcss@8.4.19):
-    dependencies:
-      icss-utils: 5.1.0(postcss@8.4.19)
-      postcss: 8.4.19
-      postcss-selector-parser: 7.1.0
-      postcss-value-parser: 4.2.0
 
   postcss-modules-local-by-default@4.2.0(postcss@8.5.6):
     dependencies:
@@ -21848,20 +21833,10 @@ snapshots:
       postcss-selector-parser: 7.1.0
       postcss-value-parser: 4.2.0
 
-  postcss-modules-scope@3.2.1(postcss@8.4.19):
-    dependencies:
-      postcss: 8.4.19
-      postcss-selector-parser: 7.1.0
-
   postcss-modules-scope@3.2.1(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
       postcss-selector-parser: 7.1.0
-
-  postcss-modules-values@4.0.0(postcss@8.4.19):
-    dependencies:
-      icss-utils: 5.1.0(postcss@8.4.19)
-      postcss: 8.4.19
 
   postcss-modules-values@4.0.0(postcss@8.5.6):
     dependencies:
@@ -22676,7 +22651,7 @@ snapshots:
       adjust-sourcemap-loader: 4.0.0
       convert-source-map: 1.9.0
       loader-utils: 2.0.4
-      postcss: 8.4.19
+      postcss: 8.5.6
       source-map: 0.6.1
 
   resolve.exports@2.0.3: {}
