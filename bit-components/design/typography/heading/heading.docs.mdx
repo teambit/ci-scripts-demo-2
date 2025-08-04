@@ -1,0 +1,35 @@
+---
+description: A component for rendering semantic and visually consistent headings.
+labels: ['heading', 'typography', 'ui']
+---
+
+The `Heading` component allows you to create headings with semantic meaning while controlling their visual appearance. It supports heading levels from 1 to 6 and provides flexibility in styling.
+
+## Component Usage
+
+Use the component to create headings with different levels:
+
+```jsx
+<Heading level={1}>Main Title</Heading>
+<Heading level={2}>Section Heading</Heading>
+<Heading level={3}>Sub-section Heading</Heading>
+```
+## Decoupling Semantic and Visual Levels
+You can decouple the semantic level (the actual HTML tag) from the visual level (the styling applied). This is useful for maintaining a proper document outline while having flexibility in visual hierarchy.
+```jsx
+<Heading level={1} visualLevel={3}>
+  This is an H1 tag, but styled as an H3.
+</Heading>
+<Heading level={4} visualLevel={1}>
+  This is an H4 tag, but styled as an H1.
+</Heading>
+```
+## Custom Styling
+You can apply custom styles to the Heading component using the style prop:
+```jsx
+<Heading
+  level={2}
+  style={{ color: 'var(--colors-primary-default)', textTransform: 'uppercase' }}
+>
+  Custom Styled Heading
+</Heading>

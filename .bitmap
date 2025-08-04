@@ -9,6 +9,15 @@
  */
 
 {
+    "automations-theme": {
+        "name": "automations-theme",
+        "scope": "automations.design",
+        "version": "7205314d3cc10458a251d9304828496b0d5187c8",
+        "mainFile": "index.ts",
+        "rootDir": "bit-components/design/automations-theme",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
     "envs/automations-env": {
         "name": "envs/automations-env",
         "scope": "automations.design",
@@ -29,6 +38,15 @@
         "version": "1.0.0",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/patterns/header"
+    },
+    "typography/heading": {
+        "name": "typography/heading",
+        "scope": "automations.design",
+        "version": "1d88b85c2d7a37a0daff860ab684dc15adcbae43",
+        "mainFile": "index.ts",
+        "rootDir": "bit-components/design/typography/heading",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
     },
     "ui/button": {
         "name": "ui/button",
@@ -58,5 +76,12 @@
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/input"
     },
-    "$schema-version": "17.0.0"
+    "$schema-version": "17.0.0",
+    "_bit_lane": {
+        "id": {
+            "name": "design-system-foundation",
+            "scope": "automations.design"
+        },
+        "exported": true
+    }
 }
