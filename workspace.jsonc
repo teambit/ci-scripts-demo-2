@@ -61,6 +61,6 @@
     "useDefaultDirectory": true
   },
   "teambit.harmony/bit": {
-    "engine": "1.12.38"
+    "engine": "^1.12.45"
   }
 }
