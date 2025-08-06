@@ -1,6 +1,5 @@
 import React from 'react';
 import { createMounter } from '@teambit/react.mounter';
-import { AutomationsTheme } from '@automations/design.automations-theme';
 
 /**
  * provide your component compositions (preview) with the context they need to run.
@@ -9,7 +8,7 @@ import { AutomationsTheme } from '@automations/design.automations-theme';
  * @see https://bit.dev/docs/react-env/component-previews#composition-providers
  */
 export function MyReactProvider({ children }: { children: React.ReactNode }) {
-  return <AutomationsTheme>{children}</AutomationsTheme>;
+  return <>{children}</>;
 }
 
 /**
