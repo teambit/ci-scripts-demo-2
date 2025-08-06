@@ -12,49 +12,49 @@
     "envs/automations-env": {
         "name": "envs/automations-env",
         "scope": "automations.design",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/envs/automations-env"
     },
     "patterns/form": {
         "name": "patterns/form",
         "scope": "automations.design",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/patterns/form"
     },
     "patterns/header": {
         "name": "patterns/header",
         "scope": "automations.design",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/patterns/header"
     },
     "ui/button": {
         "name": "ui/button",
         "scope": "automations.design",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/button"
     },
     "ui/card": {
         "name": "ui/card",
         "scope": "automations.design",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/card"
     },
     "ui/dropdown": {
         "name": "ui/dropdown",
         "scope": "automations.design",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/dropdown"
     },
     "ui/input": {
         "name": "ui/input",
         "scope": "automations.design",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/input"
     },
