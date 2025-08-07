@@ -236,14 +236,14 @@ bit-components/{scope}/{component-name}/
 - `strict`: Fail on warnings as well as errors
 
 **Pull Request Workflow Options**:
-- `build`: Build components during verification (recommended: `true`)
+- `build`: Build components during verification
 - `strict`: Enable strict mode for enhanced validation
 - `clear-labels`: Automatically remove old Bit labels
 - Custom label colors for better visual organization
 
 **Merge Workflow Options**:
 - `persist`: Add `--persist` flag for soft tagged components
-- `build`: Build components before tagging (recommended: `true`)
+- `build`: Build components before tagging
 - `strict`: Enable strict mode for tagging
 - `increment`: Fallback version increment (major, minor, patch)
 - `prerelease-id`: Custom pre-release identifier (alpha, beta, rc)
