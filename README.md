@@ -136,7 +136,7 @@ jobs:
 
 ### Prerequisites
 
-1. **Bit Account**: Create an account at [bit.dev](https://bit.dev)
+1. **Bit Account**: Create an account at [bit.cloud](https://bit.cloud)
 2. **Bit Workspace**: Initialize a Bit workspace in your repository
 3. **GitHub Repository**: Host your code on GitHub
 4. **Bit Version**: Ensure you're using Bit version ^1.11.42 or higher
