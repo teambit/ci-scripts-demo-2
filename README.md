@@ -167,7 +167,7 @@ permissions:
 
 ### Getting Your Bit Access Token
 
-1. Go to [bit.dev](https://bit.dev)
+1. Go to [bit.cloud](https://bit.cloud)
 2. Navigate to your profile settings
 3. Generate a new access token
 4. Add it as `BIT_CONFIG_ACCESS_TOKEN` in your GitHub repository secrets
