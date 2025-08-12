@@ -38,13 +38,7 @@
   * Explore more dev environments at: https://bit.dev/docs/getting-started/composing/dev-environments
   **/
   "teambit.generator/generator": {
-    "envs": [
-      // "bitdev.node/node-env",
-      // "bitdev.react/react-env",
-      // "bitdev.vue/vue-env",
-      // "bitdev.angular/angular-env"
-      // "bitdev.symphony/envs/symphony-env"
-    ]
+    "envs": []
   },
   /**
    * main configuration for component dependency resolution.
