@@ -58,7 +58,7 @@ describe('Dropdown', () => {
     expect(screen.queryByText('Option 1')).toBeNull();
   });
 
-  it.skip('should handle keyboard navigation', () => {
+  it('should handle keyboard navigation', () => {
     render(<BasicDropdown />);
     const trigger = screen.getByRole('button');
 
