@@ -47,7 +47,7 @@
     "ui/dropdown": {
         "name": "ui/dropdown",
         "scope": "automations.design",
-        "version": "1.1.0",
+        "version": "a9a11ea86b76825498570a8a9629d15207dc4585",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/dropdown"
     },
@@ -58,5 +58,12 @@
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/input"
     },
-    "$schema-version": "17.0.0"
+    "$schema-version": "17.0.0",
+    "_bit_lane": {
+        "id": {
+            "name": "revert-test-skip",
+            "scope": "automations.design"
+        },
+        "exported": true
+    }
 }
