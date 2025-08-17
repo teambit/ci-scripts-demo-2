@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Initialize Bit
-        uses: bit-tasks/init@v3.0.1
+        uses: bit-tasks/init@v3
         with:
           ws-dir: "."
 
