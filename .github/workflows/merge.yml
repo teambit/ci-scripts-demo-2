@@ -26,9 +26,9 @@ jobs:
       - name: Initialize Bit
         uses: bit-tasks/init@v3
         with:
-            ws-dir: '.'
+          ws-dir: "."
 
       - name: Bit Tag and Export
-        uses: bit-tasks/tag-export@v3
+        uses: bit-tasks/tag-export@v4
         with:
           build: true

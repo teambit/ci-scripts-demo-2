@@ -18,10 +18,10 @@ jobs:
       - name: Initialize Bit
         uses: bit-tasks/init@v3
         with:
-            ws-dir: '.'
-            
+          ws-dir: "."
+
       - name: Bit Pull Request
-        uses: bit-tasks/pull-request@v3
+        uses: bit-tasks/pull-request@v4
         with:
           build: true
           version-labels: true
