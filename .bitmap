@@ -19,7 +19,7 @@
     "patterns/form": {
         "name": "patterns/form",
         "scope": "automations.design",
-        "version": "1.0.4",
+        "version": "747f10466c423b69b559c24faead6bdfced726da",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/patterns/form"
     },
@@ -58,5 +58,12 @@
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/input"
     },
-    "$schema-version": "17.0.0"
+    "$schema-version": "17.0.0",
+    "_bit_lane": {
+        "id": {
+            "name": "update-form-docs-2",
+            "scope": "automations.design"
+        },
+        "exported": true
+    }
 }
