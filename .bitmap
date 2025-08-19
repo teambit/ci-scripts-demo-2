@@ -19,7 +19,7 @@
     "patterns/form": {
         "name": "patterns/form",
         "scope": "automations.design",
-        "version": "18a3534016fccbfa6dfec6a30c83280ac4cbb174",
+        "version": "1.0.3",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/patterns/form"
     },
@@ -47,7 +47,7 @@
     "ui/dropdown": {
         "name": "ui/dropdown",
         "scope": "automations.design",
-        "version": "a9a11ea86b76825498570a8a9629d15207dc4585",
+        "version": "1.1.0",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/dropdown"
     },
@@ -58,12 +58,5 @@
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/ui/input"
     },
-    "$schema-version": "17.0.0",
-    "_bit_lane": {
-        "id": {
-            "name": "revert-test-skip",
-            "scope": "automations.design"
-        },
-        "exported": true
-    }
+    "$schema-version": "17.0.0"
 }
