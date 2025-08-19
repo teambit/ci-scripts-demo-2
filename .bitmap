@@ -19,7 +19,7 @@
     "patterns/form": {
         "name": "patterns/form",
         "scope": "automations.design",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "mainFile": "index.ts",
         "rootDir": "bit-components/design/patterns/form"
     },
