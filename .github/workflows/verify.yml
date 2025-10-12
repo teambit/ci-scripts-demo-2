@@ -8,6 +8,8 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    container:
+      image: bitsrc/stable:latest
     env:
       BIT_CONFIG_ACCESS_TOKEN: ${{ secrets.BIT_ACCESS_TOKEN }}
 
