@@ -8,7 +8,7 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     container:
-      image: bitsrc/stable:latest
+      image: bitsrc/nightly:1.12.75
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       BIT_CONFIG_ACCESS_TOKEN: ${{ secrets.BIT_ACCESS_TOKEN }}
