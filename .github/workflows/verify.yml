@@ -24,3 +24,5 @@ jobs:
 
       - name: Bit Verify
         uses: bit-tasks/verify@v2
+        with:
+          upload-bit-log: true

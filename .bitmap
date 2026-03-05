@@ -14,7 +14,10 @@
         "scope": "automations.design",
         "version": "1.1.0",
         "mainFile": "index.ts",
-        "rootDir": "bit-components/design/envs/automations-env"
+        "rootDir": "bit-components/design/envs/automations-env",
+        "config": {
+            "bitdev.general/envs/bit-env@4.0.1": {}
+        }
     },
     "patterns/form": {
         "name": "patterns/form",
